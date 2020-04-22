@@ -8,4 +8,4 @@ show_excerpts: false
 minima:
   skin: "dark"
   
-theme: minima
+remote_theme: jekyll/minima
