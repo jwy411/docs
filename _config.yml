@@ -1,3 +1,10 @@
+title: 정우용 블로그
+author:
+  name: 정우용
+  email: jwy411
+description: > # this means to ignore newlines until "show_excerpts:"
+  각종 개발 관련 문서 .
+show_excerpts: false
 minima:
   skin: dark
   
