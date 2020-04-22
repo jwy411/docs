@@ -1,16 +1,19 @@
+# regex
+
 `where=([^&$]*)`
 
 설명
 
 * `where=` 각 문자열 case sensitive 일치
 * `(` 그루핑 시작
-* `[^` negate set 시작 (set 안에 있느 어떠한 문자와도 일치하지 않는 문자)
+* `[^` negate set 시작 \(set 안에 있느 어떠한 문자와도 일치하지 않는 문자\)
 * `&` & 문자와 일치
 * `$` $ 문자와 일치
 * `]` negate set 종료
 * `*` 0개 이상 일치
 * `)` 그루핑 종료
 
-예시  ([링크](https://regexr.com/4p60i))
+예시 \([링크](https://regexr.com/4p60i)\)
 
 `https://m.search.naver.com/search.naver?query=%EB%8B%B9%EC%A7%84%ED%95%A9%EB%8D%95%EC%97%AD%EC%84%B8%EA%B6%8C&where=video&sm=mob_sly.hst&acr=0`
+
